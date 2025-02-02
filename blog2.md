@@ -18,8 +18,6 @@ I thought about home again—about the people who told me I was making a mistake
 The ship’s AI reminds me I need to leave soon. The gravitational shifts here are unpredictable, and if I linger too long, I might not make it out.
 <br></br>
 I take one last look at the ghost moons. I like to think they were once part of something greater, a planet that shattered long ago but still clings to the dance it started. Maybe that’s all we can do—keep moving, keep orbiting, even when everything we knew is long gone.
-<br></br>
-End transmission.
 </p>
 <img src="/images/ghostMoons.webp" alt="Ghost Moons of Gliese 581d">
 </div>
