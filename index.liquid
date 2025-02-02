@@ -1,7 +1,15 @@
 ---
 layout: layout.liquid
-title: 11ty Boilerplate
+title: Tales from the Universe - Home
 ---
 
-<h1>Yet Another 11ty <strong>Boilerplate</strong></h1>
-<img alt="pine" src="/images/pine.png" width="50" />
+<h1>Tales from the <strong>Universe</strong></h1>
+<h2>Recent Blog Posts</h2>
+<div id="blog-summary">
+    {% blog-title 'The Sapphire Veil of NGC 281' '/blog1' '1-22-2098' 'Milky Way Galaxy' 'While exploring the breathtaking NGC 281 nebula, I find myself mesmerized by its shifting blue and gold clouds. The beauty of space is undeniable, but as I drift in silence, I can’t ignore the loneliness creeping in. I chose this journey, but some part of me still wonders about the life I left behind.' %}
+    {% blog-title 'The Ghost Moons of Gliese 581d' '/blog2' '3-30-2098' 'Milky Way Galaxy' 'On the distant exoplanet Gliese 581d, I walk across an untouched landscape beneath two eerie, orbiting moons. The isolation is profound, making me question if anyone on Earth still thinks of me. As I prepare to leave, I reflect on the way we keep moving forward, even when everything familiar is far behind.' %}
+</div>
+<div class="blog-images">
+    <img src="images/NGC281.webp" alt="NGC281 Sapphire Veil">
+    <img src="images/ghostMoons.webp" alt="Ghost Moons of Gliese 581d">
+</div>

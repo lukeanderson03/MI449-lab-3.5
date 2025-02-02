@@ -1,7 +1,7 @@
 body {
     font-family: Helvetica, sans-serif;
     color: #EAE8FF;
-    background: #2D3142;
+    background: #141414;
     padding: 0 40px;
     text-align: center;
 }
@@ -9,8 +9,11 @@ body {
 nav {
     margin: 40px auto 0 auto;
     width: 250px;
-    border-radius: 50px;
-    background: #212431;
+
+}
+
+img {
+    border-radius: 5%;
 }
 
 nav ul {
@@ -33,18 +36,200 @@ nav ul li a {
     font-size: 1.2em;
 }
 
+nav ul li a:hover {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(https://cdn.esahubble.org/archives/images/thumb700x/potw2049a.jpg);
+    background-position: center center;
+}
+
 h1 {
-    font-size: 8em;
+    font-size: 7em;
     letter-spacing: -2px;
 }
 
 h1 strong {
-    background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-image: url(https://cdn.esahubble.org/archives/images/thumb700x/potw2049a.jpg);
+    background-position: center center;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #EAE8FF;
 }
 
-img.about {
-    opacity: 0.5;
+h2 {
+    text-decoration: underline;
+}
+
+h3 {
+    font-style: italic;
+}
+
+p {
+    line-height: 20px;
+}
+
+.blog-title {
+    width: 40%;
+}
+
+.blog-title p,
+h3 {
+    margin: 10px 0;
+}
+
+.blog-images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog-images img {
+    width: 600px;
+    margin-bottom: 60px;
+}
+
+#blog-summary {
+    display: flex;
+    justify-content: space-around;
+}
+
+.post-info {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.blog-pages h3 {
+    font-style: normal;
+}
+
+.blog-info {
+    display: flex;
+    text-align: start;
+    width: 80%;
+    margin: 40px auto 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-info img {
+    width: 40%;
+    margin: 15px;
+}
+
+.blog-info p {
+    width: 30%;
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #EAE8FF;
+}
+
+.blog-link:hover {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(https://cdn.esahubble.org/archives/images/thumb700x/potw2049a.jpg);
+    background-position: center center;
+}
+
+.post-info p,
+h3 {
+    margin: 10px 0;
+}
+
+.about-info {
+    margin: 0 auto;
+    text-align: start;
+    width: 40%;
+}
+
+#cap-photo {
+    border-style: solid;
+    color: #EAE8FF;
+    border-radius: 50%;
+    width: 400px;
+}
+
+#cap-photo:hover {
+    width: 600px;
+    transition: .5s;
+    border-radius: 0;
+    border-style: none;
+}
+
+nav img {
+    width: 40px;
+}
+
+footer img {
+    margin: 20px auto;
+    width: 60px;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform-origin: center;
+    transform: rotate(90deg);
+}
+
+
+footer img:hover {
+    -webkit-transition: all 2s ease;
+    transition: all 1.5s ease;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    transform-origin: center;
+    transform: rotate(0deg);
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.5s;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
 }
