@@ -3,7 +3,7 @@ layout: layout.liquid
 title: About
 ---
 
-# My journy through the **Stars**
+# My Journey through the **Stars**
 
 <img src="/images/space-explorer.webp" alt="Photo of myself, Captain Elias Varen" id="cap-photo">
 
